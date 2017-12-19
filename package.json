@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha test/helpers/setup.js test/*.spec.js",
     "dev": "webpack-dev-server --progress --colors --inline --hot",
-    "production": "NODE_ENV=production webpack --progress -p"
+    "production": "NODE_ENV=production webpack --progress -p",
+    "deploy": "sh deploy.sh"
   },
   "keywords": [
     "react",
