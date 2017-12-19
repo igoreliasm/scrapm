@@ -33,6 +33,7 @@ export default class Todo extends Component {
             setTimeout( () => { 
                 this.setState({ 
                     ...this.state, 
+                    movie: '', 
                     list: res.data, 
                     hidden: false, 
                     total_pages: res.data['total_pages'],
