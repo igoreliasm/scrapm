@@ -13,7 +13,7 @@ export default class Todo extends Component {
 
     constructor(props) {
         super(props)
-        this.state = { movie: '', list: [], hidden: false, activePage: 1, total_pages: 0 }
+        this.state = { movie: '', list: [], hidden: false, activePage: 1, total_pages: 0, total_items: 0 }
 
         this.handleChange = this.handleChange.bind(this)
         this.handleSearch = this.handleSearch.bind(this)
@@ -33,10 +33,10 @@ export default class Todo extends Component {
             setTimeout( () => { 
                 this.setState({ 
                     ...this.state, 
-                    movie: '', 
                     list: res.data, 
                     hidden: false, 
-                    total_pages: res.data['total_pages'] 
+                    total_pages: res.data['total_pages'],
+                    total_items: res.data['total']
                 })
             }, 2000);
         })
@@ -63,7 +63,7 @@ export default class Todo extends Component {
                 <PaginationRender
                     activePage={this.state.activePage}
                     itemsCountPerPage={10}
-                    totalItemsCount={this.state.total_pages}
+                    totalItemsCount={this.state.total_items}
                     pageRangeDisplayed={5}
                     onChange={this.handlePageChange}
                 />
