@@ -4,7 +4,7 @@
   "description": "finding movies using reactjs :)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w test/helpers/setup.js test/*.spec.js",
+    "test": "mocha test/helpers/setup.js test/*.spec.js",
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "NODE_ENV=production webpack --progress -p"
   },
