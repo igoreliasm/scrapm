@@ -3,7 +3,7 @@
 # scrapm
 finding movies using reactjs :)
 
-## mock server
+## Mock server
 
 [jsonmock](https://jsonmock.hackerrank.com/api/movies/search/)
 
