@@ -1,0 +1,8 @@
+node_modules
+*.log
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.svg
+app.js
