@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/igoreliasm/scrapy-movie.svg?branch=master)](https://travis-ci.org/igoreliasm/scrapy-movie)
+[![Build Status](https://travis-ci.org/igoreliasm/scrapm.svg?branch=master)](https://travis-ci.org/igoreliasm/scrapm)
 
 # scrapm
 finding movies using reactjs :)
