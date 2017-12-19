@@ -3,6 +3,10 @@
 # scrapm
 finding movies using reactjs :)
 
+## mock server
+
+[jsonmock](https://jsonmock.hackerrank.com/api/movies/search/)
+
 ## Demo
 
 Check [here](https://scrapm.herokuapp.com/)
