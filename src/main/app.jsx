@@ -7,6 +7,6 @@ import Todo from '../todo/todo'
 
 export default props => (
   <div className='container'>
-     <Todo />
+    <Todo />
   </div>
 )
