@@ -50,6 +50,7 @@
     "react-js-pagination": "^3.0.0",
     "react-loading": "^1.0.3",
     "react-test-renderer": "^16.2.0",
+    "standard": "^10.0.3",
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
