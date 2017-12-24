@@ -23,7 +23,7 @@ export default props => {
         <div role='form' className='movieForm'>
             <div>
                 <input id='movie' className='form-control'
-                    placeholder='Digite um filme e precione enter!' value={props.movie}
+                    placeholder='Digite um filme e pressione enter!' value={props.movie}
                     onKeyUp={keyHandle}
                     onChange={props.handleChange}
                 />
