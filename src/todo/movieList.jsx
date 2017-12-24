@@ -8,7 +8,6 @@ export default props => {
     const renderMovie = () => {
 
         const list = props.list['data'] || []
-        const hidden = props.hidden;
         const srcNA = 'https://i.imgur.com/nBsFS8T.jpg'
 
         if (props.hidden) {
