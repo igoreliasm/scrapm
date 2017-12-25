@@ -47,7 +47,7 @@ export default class Todo extends Component {
   render () {
     return (
       <div>
-        <Header name='Scrapm' small='finding movies' />
+        <Header name='Scrapm' />
         <MovieForm
           movie={this.state.movie}
           handleSearch={this.handleSearch}
